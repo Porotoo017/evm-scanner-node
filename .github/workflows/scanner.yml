@@ -16,6 +16,4 @@ jobs:
       - name: Install dependencies
         run: pip install eth-account web3
       - name: Start Scanner
-        run: |
-          python3 scanner.py
-EOF
+        run: python3 scanner.py
